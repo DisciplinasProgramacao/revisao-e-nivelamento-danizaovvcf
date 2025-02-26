@@ -12,7 +12,7 @@ public class ProdutoTest {
     
     @BeforeAll
     static public void prepare(){
-        produto = new Produto("Produto teste", 100, 0.1);
+        produto = new ProdutoNaoPerecivel("Produto teste", 100, 0.1);
     }
     
     @Test
